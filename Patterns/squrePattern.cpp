@@ -47,12 +47,9 @@
 //     }
 // }
 
-
 // Printing number
 
-
-
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -69,9 +66,9 @@ int main()
         for (int j = 1; j <= n; j++)
         {
             num+=1;
-            cout << num;
+            cout << num << " ";
         }
-            cout << ("\n");
+            cout << endl ;
 
     }
 }
