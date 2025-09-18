@@ -14,6 +14,12 @@
 // 4.Must be manually freed (using delete in C++, free() in C).
 // 5.Slower than static, but flexible.
 
+
+
+// Stack: Stores local variables, limited size, memory is auto-managed (free when function ends).
+// Heap: Used for global variables and dynamically allocated memory, large size, needs manual management (e.g., free memory manually).
+
+
 // Q: What’s the difference between static and dynamic memory allocation?
 // Static allocation happens at compile - time and memory size is fixed.It is stored in the stack, and memory is automatically freed when the program exits a scope.Dynamic allocation happens at runtime, size can be chosen by the user, and memory is taken from the heap.But we must manually free it using delete in C++(or free() in C).Static is faster but less flexible, while dynamic is flexible but slightly slower.
 
